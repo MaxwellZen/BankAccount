@@ -7,5 +7,8 @@ public class Tester {
     test.setPassword("newpassword");
     System.out.println(test.deposit(5));
     System.out.println(test.getBalance());
+    System.out.println(test.withdraw(5));
+    System.out.println(test.getBalance());
+
   }
 }
