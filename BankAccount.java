@@ -13,5 +13,15 @@ public class BankAccount {
   public int getAccountID() {
     return this.accountID;
   }
-  
+  public void setPassword(String newPass) {
+    this.password = newPass;
+  }
+  public boolean deposit(double amount) {
+    if (amount < 0) {
+      return false;
+    } else {
+      this.balance += amount;
+      return true;
+    }
+  }
 }
