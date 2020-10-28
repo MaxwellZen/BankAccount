@@ -9,6 +9,6 @@ public class Tester {
     System.out.println(test.getBalance());
     System.out.println(test.withdraw(5));
     System.out.println(test.getBalance());
-
+    System.out.println(test.toString());
   }
 }
